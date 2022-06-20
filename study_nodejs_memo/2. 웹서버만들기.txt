@@ -1,0 +1,15 @@
+WEB BROWSER: 주소 입력 후 서버에게 요청
+WEB SERVER: 해당 요청에 따라 응답해줌
+
+- 터미널에서 javascript 실행
+ : 해당 파일 디렉토리 경로>node fileName.js
+
+- 사용자에게 전송할 데이터가 바뀐다? 
+ : response.end( fs.readFileSync(_dirname+url) ); // 해당경로의 파일을 읽어서 가져온다
+ : 즉 어떤 것을 넣느냐에 따라서 '사용자에게 전송할 데이터'가 바뀐다
+ => 즉, 사용자에게 전송할 데이터를 response.end()의 안에 넣는다. 그리고 생성한다, 보낸다.
+
+- 터미널에서 js파일 실행 -> 브라우저 주소창에 loacalhost:NUMBER -> localhost 웹사이트
+
+- localhost:3000/fileName.html => fileName 보여줌
+ : localhost:3000/$PATH

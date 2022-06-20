@@ -1,0 +1,9 @@
+* 수업목표 * : Node.js로 된 Application을 만들자!
+ -> Node.js runtime + javascript
+ -> Node.js runtime으로 기능 실행
+ -> 기능 실행 장치: javascript
+
+- Node.js에 필요한 javascript언어 문법
+- Node.js runtime 기능
+- 위 두과정 순으로 Node.js Application을 하나씩 만든다
+- 위 세 과정을 순서대로 반복하며 학습하게 된다!
