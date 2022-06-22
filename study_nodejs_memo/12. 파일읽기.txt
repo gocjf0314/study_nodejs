@@ -1,0 +1,14 @@
+*nodejs - 파일 읽기 기능* - 파일 다루기
+
+CRUD - 정보시스템의 핵심적인 매커니즘?
+ : Create Read Update Delete
+ : 중요도 순위 => 1. Create, 2. Read, 3. Update, 4. Delete
+
+FILE을 어떻게 하면 Node.js로 읽을 수 있니?
+CRUD를 Node.js에서 할 수 있도록 하자!
+
+fs.readFile(....) 함수 쓸거임! 이 모듈로 어떻게 지지고 볶을까 궁금하노
+ - const fs = require('fs);
+  : File System 모듈 사용을 요청합니다!
+ - fs.readFile('file path(readFile 함수 호출한 파일 위치 기준)', utf8, callback function);
+  : function(error, data) { .... } => data == file contents

@@ -1,0 +1,10 @@
+*파일읽기를 통한 본문 구현*
+ : query string에 따라 본문이 변경되는 코드 구현
+ 
+fs.readFile('file path', utf8, function(err, data) {
+	// 페이지가 변경될 때마다 파일을 reroad함. 변경내용 바로바로 반영됨.
+	// file path = PATH/${queryData.id}
+	// queryData.id에 따라 file path변경되고 그에 따라 reroad됨
+	var template = ` source code .... ${data} .... `;
+	reponse.end(template);
+});

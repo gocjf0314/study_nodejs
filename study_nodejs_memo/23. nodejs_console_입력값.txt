@@ -1,0 +1,10 @@
+*Node.js console에서 입력하기*
+
+var args = process.argv;
+console.log(args); => 배열등장?
+ - arr[0]: Node.js runtime의 경로
+ - arr[1]: 실행 파일 경로
+ - arr[2] ~ : process.argv로 입력받은 값
+  : 공백 기준으로 입력값 구분함
+  : node fileName.js 1 2 3 => [ ....., filePath, 1, 2, 3 ]
+  : 문자로 인식함 1입력 => '1'

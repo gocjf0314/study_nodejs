@@ -1,0 +1,13 @@
+*APP 제작 - 동적인 웹페이지 만들기*
+
+query string에 따른 다른 완성된 웹페이지 보여주기!
+결국엔 프론트엔드 알아야 가능하네?
+ - var template = `html 소스코드`; 
+  : 소스코드 text 전달로 실행시키는 원리인 것 같네?
+  : 동적으로 바꾸고 싶은 부분 변수 선언. var title = queryData.id;
+  : 소스코드 텍스트에 title변수를 삽입한 부분은 queryData.id의 변화에 따라 바뀐다
+
+ - <a href="/?id=value">VLAUE</a>
+  : 소스코드에서 본문 내용 바뀌도록 하는 부분에 id 갱신 가능하도록 설정
+  : id가 value로 바뀜에 따라 title 변경됨 -> 변경된 title에 따라서 화면 텍스트 변경됨
+  

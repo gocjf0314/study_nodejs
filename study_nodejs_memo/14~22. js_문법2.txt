@@ -1,0 +1,12 @@
+Program - '시간의 순서'에 따라 실행되는 것
+
+Boolean datatype
+
+Comparison operator
+ - 비교 연산자 결과 값type: boolean
+ - true나 false로 나옴
+ - a == b => a와 b가 같니?
+ - a === b => a와 b가 '정확하게' 같니?
+ - 웬만하면 ===로 쓰세요~
+
+
