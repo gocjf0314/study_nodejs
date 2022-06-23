@@ -1,0 +1,12 @@
+[loop]
+while( condition ) {
+    // code
+}
+
+[Array]
+func
+ - 배열 길이: Array.length
+ - 배열 요소 추가(맨 끝 자리에): Array.push(data);
+
+Array literal
+ - var arr = [.... , .... , .... , ....];

@@ -1,0 +1,5 @@
+[Home Page 구현]
+
+undefined
+ - 정의되지 않는 값에 대한 키워드
+ - ex: queryData.id === undefined
